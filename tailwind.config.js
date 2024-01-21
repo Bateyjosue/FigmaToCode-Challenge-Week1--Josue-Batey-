@@ -6,6 +6,14 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      'primary': '#3A8EF6',
+      'primary-light': '#1678F2',
+      'primary-dark': '031432',
+      'iris':'#A5A6F6',
+      'secondary': '#5FD3BD',
+      'gray': '#C4C4C4',
+    }
   },
   plugins: [],
 }

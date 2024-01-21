@@ -13,6 +13,7 @@ export default {
       'iris':'#A5A6F6',
       'secondary': '#5FD3BD',
       'gray': '#C4C4C4',
+      'white': '#fff'
     }
   },
   plugins: [],

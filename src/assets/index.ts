@@ -1,0 +1,1 @@
+export * as logoColor from './img/logo-color.png';

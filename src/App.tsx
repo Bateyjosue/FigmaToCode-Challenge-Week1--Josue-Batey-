@@ -5,9 +5,9 @@ import Hero from "./components/Hero"
 function App() {
 
   return (
-    <div className="max-h-full h-dvh min-h-full bg-[#F8F8F8] poppins-regular">
+    <div className="max-h-full h-dvh min-h-full poppins-regular">
       <Header />
-      <main className="wrapper-md lg:wrapper-lg">
+      <main className="bg-dark-gray">
         <Hero />
       </main>
     </div>

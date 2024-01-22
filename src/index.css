@@ -4,7 +4,7 @@
 
 @layer components {
   .wrapper-lg {
-    @apply  mx-auto px-40 py-6
+    @apply  mx-auto px-40
   }
 
   .wrapper-md {

@@ -9,8 +9,8 @@ function Advert({title, paragraphe,className, children}: PropsWithChildren<Adver
     <article className={className}>
       {children}
       <div className="text-white">
-        <h2 className="text-base  font-medium">{title}</h2>
-        <p className="text-xs font-extralight">{paragraphe}</p>
+        <h2 className="text-sm lg:text-base  lg:font-medium">{title}</h2>
+        <p className="text-[10px] lg:text-xs font-extralight">{paragraphe}</p>
       </div>
     </article>
   )

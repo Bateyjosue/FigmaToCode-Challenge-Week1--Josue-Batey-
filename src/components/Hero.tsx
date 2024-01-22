@@ -8,7 +8,7 @@ import HealthIcon from "../assets/icons/HealthIcon"
 
 function Hero() {
   return (
-    <section className="wrapper-md lg:wrapper-lg grid lg:grid-cols-2 lg:place-items-center relative rounded-b-2xl pb-14">
+    <section className="wrapper-md lg:wrapper-lg grid lg:grid-cols-2 lg:place-items-center relative rounded-b-2xl pb-32 lg:pb-24">
       <div className="flex flex-col text-center lg:text-left">
         <h4 className="text-secondary font-semibold lg:text-xl">Dr. Matthew anderson</h4>
         <h2 className="poppins-bold text-3xl lg:text-5xl font-bold">A dedicated doctor you can trust</h2>
@@ -22,7 +22,7 @@ function Hero() {
       <div className="flex mt-4 lg:mt-0 lg:justify-end">
         <img src={heroImage.default} alt="" className="-mr-16" />
       </div>
-      <div className="wrapper-md lg:wrapper-lg absolute flex gap-6 -bottom-12 left-20 right-20">
+      <div className="wrapper-md lg:wrapper-lg lg:absolute flex flex-col lg:flex-row gap-6 -bottom-48 lg:-bottom-12 lg:left-20 lg:right-20">
         <Advert
           title="24 hour service"
           paragraphe="Lorem ipsum dolor sit amet, consectetur adipscing elit."

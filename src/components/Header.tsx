@@ -2,7 +2,7 @@ import { logoColor } from "../assets"
 import MessageIcon from "../assets/icons/MessageIcon"
 function Header() {
   return (
-    <header className="wrapper-md md:wrapper-lg flex justify-between items-center bg-red-200">
+    <header className="wrapper-md md:wrapper-lg flex justify-between items-center bg-red-200 bg-dark-gray rounded-t-xl">
       <div className="h-14 w-32">
         <img src={logoColor.default} alt="kjj" className="f-full" />
       </div>

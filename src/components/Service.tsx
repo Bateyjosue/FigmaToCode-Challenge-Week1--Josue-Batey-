@@ -3,11 +3,11 @@ import serviceImages from '../assets/img/medcure.png'
 import TextComponent from './TextComponent'
 function Service() {
   return (
-    <section className="wrapper-md wrapper-lg">
-      <div>
+    <section className="wrapper-md lg:wrapper-lg grid lg:grid-cols-2 place-items-center gap-x-4 lg:py-20 ">
+      <div className='lg:order-10'>
         <img src={serviceImages} alt="" />
       </div>
-      <div>
+      <div className=''>
         <TextComponent
           title="Services"
           headline="Experienced in multiple medical practices"

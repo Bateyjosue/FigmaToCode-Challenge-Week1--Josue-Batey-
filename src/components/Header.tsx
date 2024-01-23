@@ -1,4 +1,5 @@
 import { logoColor } from "../assets"
+import MenuIcon from "../assets/icons/MenuIcon"
 import MessageIcon from "../assets/icons/MessageIcon"
 function Header() {
   return (
@@ -14,10 +15,11 @@ function Header() {
           <li className="cursor-pointer">Contact</li>
         </ul>
       </nav>
-      <button className="flex gap-x-2 text-xs font-semibold items-center justify-center bg-primary text-white px-4 py-2 rounded-full">
+      <button className="hidden lg:flex gap-x-2 text-xs font-semibold items-center justify-center bg-primary text-white px-4 py-2 rounded-full">
         <MessageIcon className="h-4 w-4" />
         <span>Book Now</span>
       </button>
+      <MenuIcon className="h-6"/>
     </header>
   )
 }

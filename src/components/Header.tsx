@@ -19,7 +19,7 @@ function Header() {
         <MessageIcon className="h-4 w-4" />
         <span>Book Now</span>
       </button>
-      <MenuIcon className="h-6"/>
+      <MenuIcon className="h-6 block lg:hidden"/>
     </header>
   )
 }
